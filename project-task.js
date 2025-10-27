@@ -111,7 +111,6 @@ let finalizeTasks = todos.map((a) => {
 
 console.log("Incomplete Tasks:  ", isNotCompleted);
 console.log("All Tasks Sorted by Priority:  ",  prioritizeTask);
-console.log("Sorted Incomplete Tasks:  ", isNotCompleted.sort((a,b) => a.priority - b.priority));
 console.log("All Tasks Marked Completed:  ", finalizeTasks);
-
+console.log("Sorted Incomplete Tasks:  ", isNotCompleted.sort((a,b) => a.priority - b.priority));
  
